@@ -12,11 +12,14 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: .5,
-    alignContent: 'center'
+    flex: 1,
+    margin: 10,
+    borderRadius: 5,
+    overflow: 'hidden'
   },
   map: {
     width: '100%',
-    height: '100%',
+    height: '50%',
+    
   },
 });
