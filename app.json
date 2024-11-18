@@ -9,9 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "googleMapsApiKey": "AIzaSyBQyrZu0Zu3GnXHxIC4BJI_qNNAJsemCKU",
       "supportsTablet": true
     },
     "android": {
+      "googleMaps": { "apiKey": "AIzaSyBQyrZu0Zu3GnXHxIC4BJI_qNNAJsemCKU" },
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
