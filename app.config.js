@@ -15,8 +15,8 @@ export default {
       supportsTablet: true
     },
     android: {
-      googleMaps: { 
-        apiKey: process.env.GOOGLE_MAPS_API_KEY 
+      googleMaps: {
+        apiKey: process.env.GOOGLE_MAPS_API_KEY
       },
       adaptiveIcon: {
         foregroundImage: "./assets/images/adaptive-icon.png",
@@ -37,6 +37,12 @@ export default {
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(BarCrawlr) to use your location."
         }
       ]
     ],
